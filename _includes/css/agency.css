@@ -241,7 +241,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: var(--secondary-color);
 }
 
 @media(min-width:768px) {
@@ -273,6 +272,11 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #ffffff;
+    background-color: transparent;
 }
 
 header {
@@ -766,6 +770,7 @@ ul.social-buttons li a {
     -moz-transition: all .3s;
     transition: all .3s;
 }
+
 
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
