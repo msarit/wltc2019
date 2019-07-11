@@ -34,12 +34,12 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.75;
 }
 
 p.large {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 a,
@@ -348,7 +348,7 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: var(--secondary-font);
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 400;
 }
