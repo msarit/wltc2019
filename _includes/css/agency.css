@@ -191,7 +191,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,cursive;
     color: var(--primary-color);
     text-shadow: -1px -1px 0 rgb(199, 199, 199);
 }
@@ -888,3 +888,18 @@ body {
     color: #ffffff;
     background-color: transparent;
 }
+
+
+table {
+    border-collapse: collapse;
+    min-width: 40%;
+    margin: 40px auto;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    font-size: 1.1em;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
